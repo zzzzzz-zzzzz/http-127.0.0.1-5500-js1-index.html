@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MY SITE MAIN PAGE - VUYYURU SASAANK REDDY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+   
+        .animate-fadeIn {
+            animation: fadeIn 1s ease-out forwards; 
+        }
+
+       
+        #videoBox {
+            display: none;
+            margin-top: 30px;
+        }
+
+        body {
+            min-height: 200vh; 
+        }
+        
+  
+</style>
+</head>
+
+<body class="flex items-center justify-center bg-gradient-to-br from-indigo-200 via-purple-300 to-pink-400 p-4 font-inter text-gray-1000">
+
+    <div class="bg-white rounded-2xl shadow-2xl max-w-4xl w-full text-center p-8 md:p-12 animate-fadeIn border border-gray-100">
+
+        <h1 class="text-4xl md:text-5xl font-extrabold text-purple-700 mb-6 underline decoration-wavy decoration-purple-300 tracking-wide">
+            WEBSITE ABOUT ME <span class="text-xl">🙃</span>
+        </h1>
+
+        <hr class="border-t-2 border-purple-200 my-6">
+
+        <div class="flex justify-center gap-4 text-purple-700 font-semibold mb-6 text-right">
+            <div id="date"></div>
+            <div id="clock"></div>
+            <div id="your-ip">your IP address::</div>
+        </div>
+
+        <p class="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
+            Hello everyone, this is about me
+        </p>
+
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank" class="group block max-w-xl mx-auto">
+            <img src="images/IMG-20250924-WA0013 (1).jpg"
+                 alt="Introductory Image - Click to explore more"
+                 class="rounded-xl border-4 border-purple-300 mx-auto mb-3 w-full object-cover transition-all duration-500 ease-in-out transform group-hover:scale-105 group-hover:shadow-xl">
+        </a>
+
+        <h6 class="text-sm text-gray-500 mb-10 italic">(Click the image to explore more content)</h6>
+
+        <div class="grid gap-8 md:grid-cols-2 mb-10">
+            <div class="bg-purple-50 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-purple-100">
+                <h2 class="text-2xl font-bold text-purple-800 mb-3">About Me</h2>
+                <p class="text-gray-700 mb-5 leading-snug">More about me</p>
+                <a href="index2.html" target="_blank"
+                   class="inline-flex items-center justify-center bg-purple-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-purple-800 transition-colors duration-300 shadow-lg hover:shadow-xl">
+                    :: VUYYURU SASAANK REDDY <span class="ml-2">➡️</span>
+                </a>
+            </div>
+
+            <div class="bg-purple-50 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-purple-100">
+                <h2 class="text-2xl font-bold text-purple-800 mb-3">My Interests</h2>
+                <p class="text-gray-700 mb-5 leading-snug">Discover the hobbies I enjoy in my free time.</p>
+                <a href="index4.html" target="_blank"
+                   class="inline-flex items-center justify-center bg-purple-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-purple-800 transition-colors duration-300 shadow-lg hover:shadow-xl">
+                    :: My Interests <span class="ml-2">➡️</span>
+                </a>
+            </div>
+        </div>
+
+        
+        <h2 class="text-2xl font-bold text-purple-800 mb-4">Enter Secret Code</h2>
+        <input type="password" id="secretInput" placeholder="Type code here..."
+               class="border-2 border-purple-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 mb-4 text-gray-700">
+        <button id="checkCodeBtn"
+                class="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-800 transition-colors duration-300 shadow-md">
+            Submit
+        </button>
+
+        <h3> note:the password is not 1234☠️</h3>
+
+       
+        <div id="videoBox">
+            <h2 class="text-xl font-bold text-purple-800 mb-4">Secret Video 🎥</h2>
+            <video width="400" controls class="mx-auto rounded-xl border-4 border-purple-300 shadow-lg">
+                <source src="images/VID-20251020-WA0000.mp4" type="video/mp4">
+             
+            </video>
+        </div>
+
+        <hr class="border-t-2 border-purple-200 my-8">
+
+        <h1 class="text-3xl md:text-4xl font-extrabold text-purple-700 mt-6">THANK YOU <span class="text-xl">^_^</span></h1>
+    </div>
+ 
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

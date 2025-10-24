@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Things</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        
+        body {
+            border: 5px solid #000; 
+        }
+        hr {
+            border: 2px solid #ae0000;
+        }
+        .falling {
+    position: absolute;
+    top: -50px;
+    font-size: 24px;
+    animation: fall linear infinite;
+  }
+
+  @keyframes fall {
+    to {
+      transform: translateY(110vh);
+      opacity: 0;
+    }
+}
+    </style>
+</head>
+<body class="font-sans m-5 p-5 bg-gradient-to-br from-green-200 via-[#95ce4f] to-green-500 shadow-lg rounded-x2 flow-root">
+    <div class="container  justify-items-center box-shadow max 1x1 right-0 bg-aqua/50 bg-purple-100 rounded-2xl shadow-2xl pr-md p-8">
+        <h1 class="text-[#a32727] text-center underline text-[50px] mt-[10px] ml-[10px] rounded-lg p-2">NAMASTE</h1>
+        <br>
+        <hr class="my-4">
+         <section id="hobbies" class="mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 text-center mb-10">Favorite Things to Do</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+               
+                <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col justify-start card-hover">
+                    <div class="text-5xl mb-3">⛩️</div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">Watching Anime & Reading Manhua</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">I enjoy various genres of anime, especially medieval fantasy.</p>
+                    <img src="images/1.jpg" alt="One Piece" class="border-4 border-gray-200 mb-4 w-full h-auto block rounded-md">
+                    <a href="https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece" target="_blank" class="text-blue-600 hover:underline mt-auto">The GOAT: One Piece</a>
+                     <a href="https://www.crunchyroll.com/series/GY2P14QEY/akame-ga-kill?srsltid=AfmBOop5fCrcZZRjLc2yLIFjUoyynIbOiMUEhj1BRtzAFYdqAw9B064a" target="_blank" class="text-blue-600 hover:underline mt-auto">::MY FAVORITE ANIME AKAME GA KILL</a>
+                </div>
+
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col justify-start card-hover">
+                    <div class="text-5xl mb-3">⚽</div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">Watching Football</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4"> i live watching football. 
+                        I'm a huge fan of Tottenham Hotspur. COYS! 🔥</p>
+                    <img src="images/2.png" alt="Football" class="border-4 border-gray-200 mb-4 w-full h-auto block rounded-md">
+                    <a href="https://www.tottenhamhotspur.com/" target="_blank" class=" color text-blue-600 hover:underline ">Official Spurs Website</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col justify-start card-hover">
+                    <div class="text-5xl mb-3">😋</div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">Eating & Food Exploration</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">I love trying out different foods and cuisines from around the world.</p>
+                   <img src="images/3.jpg" alt="Food" class="border-4 border-gray-200 mb-4 w-full h-full block rounded-md">
+                    <a href="https://pizzaonline.dominos.co.in/" target="_blank" class="text-blue-600 hover:underline mt-auto">Mamamiya</a>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col justify-start card-hover">
+                    <div class="text-5xl mb-3">📷</div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">Watching Random Things on YouTube</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">I enjoy watching a variety of random and interesting content on YouTube.</p>
+                </div>
+
+               
+                <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col justify-start card-hover">
+                    <div class="text-5xl mb-3">🎮</div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">Playing Mobile Games</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">I enjoy playing casual mobile games, especially those that are fun and engaging.</p>
+                </div>
+        </section>
+        <br>
+        <hr class="my-4">
+        <br>
+        <section id="preferences" class="mb-16">
+            <h2 class="text-[30px] font-bold text-gray-700 text-center mb-8 mt-[10px] ml-[10px] p-2 rounded-lg">OTHER THINGS</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-screen-xl mx-auto backdrop-blur-sm bg-black/30 p-5 rounded-lg shadow-lg">
+                
+                <div class="bg-white p-6 rounded-lg shadow-xl flex flex-col justify-start transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">MY FAVORATE TRAVEL SPOT</h3>
+                    <h4 class="text-base font-normal mb-2 text-gray-900"> ATHENS</h4>
+                    <p class="text-[30px] text-red-700 leading-relaxed"> I love exploring its rich history and indulging in delicious Greek cuisine.</p>
+                   
+                
+                </div>
+
+                
+                <div class="bg-white p-6 rounded-lg shadow-xl flex flex-col justify-start transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">STRENGHTS </h3>
+                    <p class="text-[30px] text-red-700 leading-relaxed">my attention span .</p>
+                </div>
+
+               
+                <div class="bg-white p-6 rounded-lg shadow-xl flex flex-col justify-start transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">WEAKNESSES</h3>
+                    <p class="text-[30px] text-red-700 leading-relaxed">my attention span </p>
+                </div>
+
+               
+                <div class="bg-white p-6 rounded-lg shadow-xl flex flex-col justify-start transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">FAVORITE SONG</h3>
+                    <p class="text-[30px] text-red-700 leading-relaxed"> I love listening to a <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&list=RDxvFZjo5PgG0&start_radio=1" target="_blank" class="text-[#1e90ff] no-underline text-[30px] hover:underline">:: GOATED SONG </a></p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-xl flex flex-col justify-start transition-transform duration-300 hover:scale-105 hover:shadow-2xl text-center ">
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">FAVORITE childhood show</h3>
+                    <p class="text-[30px] text-red-700 leading-relaxed text-center"> BAKUGAN 
+                              ,SHIN CHAN
+                          
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="quotes" class="mb-16">
+            <h2 class="text-xl font-bold text-gray-800 text-center mb-10">Favorite Quotes</h2>
+            <div class="space-y-6">
+                
+                <blockquote class="bg-red-100 border-l-4 border-red-500 text-red-800 p-4 rounded-r-lg relative shadow-md p-12 w-full max-w-4xl mx-auto h-full text-5xl">
+                    <p class="font-semibold italic">"People's dreams... Have no end!"</p>
+                    <cite class="block text-right not-italic mt-2">- Marshall D. Teach (One Piece)</cite>
+                </blockquote>
+            </div>
+            <br>
+            <hr class="my-4">
+            <br>
+            <div class="text-center box-border p-4 bg-yellow-100 rounded-lg shadow-md max-w-xl mx-auto">
+            <h1 class="text-xl font-bold text-gray-800 text-center mb-10">💬 Random Quote or Joke</h1>
+<div id="box" class="text-center">Click below for something fun!</div>
+<button id="new-btn" class="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-800 transition-colors duration-300 shadow-md justify-center relative text-center">GET ME ONE</button>
+<audio id="click-sound" src="https://actions.google.com/sounds/v1/cartoon/pop.ogg" preload="auto"></audio>        
+</section>
+
+    </div>
+    <script src="index4.js"></script>
+</body>
+</html>
